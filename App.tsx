@@ -8,6 +8,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
+      <StatusBar style="auto" />
       <Pressable onPress={() => setModalVisible(true)}>
         <Text style={styles.linkText}>Show modal message</Text>
       </Pressable>
